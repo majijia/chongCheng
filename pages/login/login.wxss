@@ -1,0 +1,47 @@
+/*背景*/
+.bgOne{
+    background: #f3f3f3;
+    height: 10rpx;
+}
+.loginOne{
+    text-align: center;
+    margin-top:30%;  
+}
+.loginOne image{
+    width:168rpx;
+    height:168rpx;
+    margin-bottom: 20rpx;
+}
+.loginTex{
+    font-size: 36rpx;
+    margin-top:20%;
+    font-weight:400;
+}
+.loginTitle{
+    width:128rpx;
+    height:58rpx;
+    font-size:60rpx;
+    font-weight:bold;
+    color:rgba(15,14,19,1);
+    line-height:57rpx;
+}
+
+.loginXie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin:0 auto;
+}
+.loginXie .radios{
+    width:24rpx;
+    height: 24rpx;
+    margin-right:40rpx;
+    color:#ff8833;
+}
+.loginXie text{
+    font-size:24rpx;
+}
+.loginXie .tow{
+    color:#ff8833;
+}

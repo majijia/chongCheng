@@ -1,0 +1,52 @@
+page{
+    background: #f4f4f4;
+}
+.moneyO{
+    width:94%;
+    background: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    margin-top:24rpx;
+}
+.moneyPri{
+    color:#ff6633;
+    margin-left:14%;
+    font-size: 34rpx;
+}
+.moneyImg{
+    width:240rpx;
+    margin:24rpx;
+    height:160rpx;
+}
+.loginBtn{
+    margin: 0 auto;
+    text-align: center;
+    line-height: 88rpx;
+    margin-top:300rpx;
+}
+.wechat{
+    width:36rpx;
+    height:32rpx;
+    margin:28rpx 24rpx;
+}
+.radio-group{
+    margin-left:60%;
+}
+.moneyXie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vid{
+    margin-top:24rpx;
+}
+.moneyTwo{
+    color:#5F5F6A;
+    font-size: 24rpx;
+    margin-top:24rpx;
+}
+.moneyTwo text{
+    color:#ff8833;
+}

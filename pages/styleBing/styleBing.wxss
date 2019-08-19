@@ -1,0 +1,23 @@
+page{
+  background: #f4f4f4;
+}
+.styleBing .btnOne{
+  margin:24rpx;
+  height:88rpx;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  line-height: 88rpx;
+  align-items: center;
+}
+.BingOne{
+  font-size: 28rpx;
+  color:#0F0E13;
+}
+.BingTwo{
+  color:#97969C;
+  font-size: 24rpx;
+}
+.jianTwo{
+  margin-left:23rpx;
+}

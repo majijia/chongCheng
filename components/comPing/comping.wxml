@@ -1,0 +1,38 @@
+<view class="com">
+    <view class="comOne">
+        <view>567条评论</view>
+        <input placeholder="我先来说两句" class="comInp" bindtap="wirtePing" />     
+    </view>
+    <view class="comImg">
+        <image src="../../utils/image/index/tu.jpg" class="headImg"></image>
+        <view>
+            <view class="comName">思思大王</view>
+            <view class="comP">这个课程不错，对我十分有帮助</view>
+        </view>
+        <view class="comDate">2013-8-19</view>
+    </view>
+    <view class="comImg">
+        <image src="../../utils/image/index/tu.jpg" class="headImg"></image>
+        <view>
+            <view class="comName">思思大王</view>
+            <view class="comP">这个课程不错，对我十分有帮助</view>
+        </view>
+        <view class="comDate">2013-8-19</view>
+    </view>
+    <view class="comImg">
+        <image src="../../utils/image/index/tu.jpg" class="headImg"></image>
+        <view>
+            <view class="comName">思思大王</view>
+            <view class="comP">这个课程不错，对我十分有帮助</view>
+        </view>
+        <view class="comDate">2013-8-19</view>
+    </view>
+    <view class="comImg">
+        <image src="../../utils/image/index/tu.jpg" class="headImg"></image>
+        <view>
+            <view class="comName">思思大王</view>
+            <view class="comP">这个课程不错，对我十分有帮助</view>
+        </view>
+        <view class="comDate">2013-8-19</view>
+    </view>
+</view>

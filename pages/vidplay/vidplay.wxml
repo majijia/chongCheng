@@ -1,0 +1,61 @@
+<view>
+    <view class="plays">
+    <image class="vidPlayO" src="../../utils/image/index/bane.jpg" mode="aspectFill"> 
+    </image>
+    <view class="vidPlayT">
+      <view class="Tone" bindtap="cirOne" data-gId='{{1}}'>
+          <view class="Tthree" hidden="{{cir!==1}}"></view>
+          <view class="operBtn {{cir==1 ? 'ThreeO':' '}}">详情</view>
+      </view>
+      <view class="Tone" bindtap="cirOne" data-gId='{{2}}'>
+          <view class="Tthree" hidden="{{cir!==2}}"></view>
+          <view class="operBtn {{cir==2 ? 'ThreeO':' '}}">动作</view>
+      </view>
+      <view class="Tone" bindtap="cirOne" data-gId='{{3}}'>
+          <view class="Tthree" hidden="{{cir!==3}}"></view>
+          <view class="operBtn {{cir==3 ? 'ThreeO':' '}}">评论</view>
+      </view>
+    </view>
+    <view  wx:if="{{cir==1}}">
+        <view class="vidPlayF">
+            <view class="Fone">视频恢复训练课程</view>
+            <view class="Ftwo">345人已购买</view>
+        </view>
+        <view class="vidPlayS">
+            ￥299.0
+        </view>
+        <view class="vidPlayE">
+            <view>会员价：￥199.0</view>
+            <view class="Ethree">
+                <image class="Eone" src="../../utils/image/index/huiyuan.png" mode="aspectFill"></image>
+                <view>办理会员</view>
+                <image class="Etwo" src="../../utils/image/jianTwo.png" mode="aspectFill">
+                </image>
+            </view>
+        </view>
+        </view>
+    </view>
+        <view class="playsTwo" wx:if="{{cir==1}}">
+            <view class="vidPlayN">适用人群</view>
+            <view class="None">对于XXX人群不适合训练</view>
+            <view>
+                <view class="vidPlayN">课程介绍</view>
+                <view class="None">我是课程介绍，介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍
+                                绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍我是课程介绍，介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍
+                                绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍我是课程介绍，介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍
+                                绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍
+                </view>
+            </view>
+        </view>
+    <!--自定义组件-->
+    <dilogs  wx:if="{{cir==2}}"></dilogs>
+    <!--评论自定义组件-->
+    <comping wx:if="{{cir==3}}"></comping>
+    <view class="vidPlayTs">
+        <view class="Tones">
+            <image src="../../utils/image/index/master.png"></image>
+            <view>咨询</view>
+        </view>
+        <view class="loginBtn" bindtap="starTra">开始训练</view>
+    </view>
+</view>

@@ -1,0 +1,42 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/*弹性*/
+.metSex{
+  display:flex;
+  justify-content: space-around;
+}
+/*大按钮*/
+.loginBtn{
+  width:540rpx;
+  height:88rpx;
+  background:#ff8833;
+  border-radius:44rpx;
+  margin-top:50%;
+  color:rgba(255,255,255,1);
+  font-size:34rpx;
+}
+/*箭头*/
+.jianTwo{
+  width:16rpx;
+  height:28rpx;
+}
+/*radio大小*/
+.vidio{
+  transform:scale(0.7);
+}
+/*一键到顶*/
+.goTop{
+  position: fixed;
+  top:90%;
+  left:85%;
+  width:88rpx;
+  height:88rpx;
+}

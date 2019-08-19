@@ -1,0 +1,21 @@
+page{
+  background: #f4f4f4;
+}
+.siteOne .siteTwo{
+  border-radius: 10rpx;
+  background: #fff;
+  margin:24rpx;
+}
+
+.siteSun{
+  display: flex;
+  justify-content: space-between;
+  /* height: 110rpx;
+  line-height: 110rpx; */
+  text-align: start;
+  border-bottom: 1px solid #f4f4f4;
+  font-size: 28rpx;
+  color:#0F0E13;
+  padding:30rpx 20rpx;
+}
+

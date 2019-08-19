@@ -1,0 +1,15 @@
+<view class="list">
+    <view class="listTwo" bindtap="vidplay" wx:for="{{list}}" wx:key="{{item.id}}" data-id="{{item.id}}">
+        <image src="../../utils/image/index/yundong.jpg" class="listOne">
+          <image src="../../utils/image/index/bp.png"></image>
+        </image>
+        <view class="listThree">
+            <view>{{item.title}}</view>
+            <view>{{item.buy_num}}人已购买</view>
+        </view>
+        <view class="listFour">
+            <view>￥{{item.price}}</view>
+            <button>会员价:￥{{item.vip_price}}</button>
+        </view>
+    </view>
+</view>

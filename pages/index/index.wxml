@@ -1,0 +1,58 @@
+<view>
+    <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{1000}}">
+        <block wx:for="{{imgUrls}}" wx:key="item.id">
+            <swiper-item>
+            <image src="{{item}}" mode="scaleToFill" class="bannerImg" width="100%" height="320"/>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="indexTwo">
+       <image class="indexImgO one" src="../../utils/image/index/zixun.png" mode="scaleToFill" lazy-load="true">
+           <view class="zixun">康复咨询</view>
+           <view class="jieda">专家在线解答</view>
+       </image> 
+       <image class="indexImgO" src="../../utils/image/index/kang.png" mode="scaleToFill" lazy-load="true" bindtap="vidList">
+           <view class="kecheng">康复课程</view>
+           <view class="ship">优选康复视频</view>
+       </image> 
+    </view>
+    <view class="indexTit">
+        <image class="titImg" src="../../utils/image/index/tui.png" mode="aspectFill" lazy-load="true">
+        </image>
+        <view class="titTui">
+            专属课程推荐
+        </view>
+        <view class="cic"></view>
+        <view class="titLast">
+            根据您的病情资料推荐
+        </view>
+    </view>
+    <view class="pingGu">
+        <image class="doc" src="../../utils/image/index/tu.jpg" mode="aspectFill" lazy-load="true">
+        </image>
+        <view>
+           <view class="texOne">康复评估</view> 
+           <view class="texTwo">憧橙会根据评估报告为您推荐更</view>
+           <view class="texThree">精准的训练课程</view>
+        </view>
+        <image src="../../utils/image/index/jian.png" class="jianTwo"></image>
+    </view>
+    <view class="shiP" wx:if="{{lesson_list.length>0}}" bindtap="indexCour">
+        <view class="auto" wx:for="{{lesson_list}}" wx:key="{{item.id}}">
+            <image class="autoImgOne" src="../../utils/image/index/banner.jpg" mode="aspectFill" lazy-load="true">  
+               <image src="../../utils/image/index/bp.png" class="autoBtn"></image>
+            </image>
+            <view class="autoTit">{{item.title}}</view>
+            <text class="autoBuy">{{item.buy_num}}人已购买</text>
+            <view class="price">
+                <view>￥{{item.price}}</view>
+                <button>会员:￥{{item.vip_price}}</button>
+            </view>
+        </view>
+    </view>
+    <image src='../../utils/image/index/TOP.png' class='goTop' hidden='{{!floorstatus}}' bindtap="goTop"></image>
+    <view class="material">
+        <button class="loginBtn two" bindtap="amend">修改资料</button>
+        <view>推荐不匹配?</view>
+    </view>
+</view>

@@ -1,0 +1,26 @@
+<view class="styleBing">
+  <button class="btnOne" bindtap="styleSite">
+    <view class="BingOne" >
+      损伤部位
+    </view>
+    <view class="BingTwo">
+      <!-- 请选择损伤部位 -->
+      {{sunBu}}
+      <image src="../../utils/image/jianTwo.png" mode="aspectFill" lazy-load="true" class="jianTwo">
+      </image>
+    </view>
+  </button>
+  <button class="btnOne" bindtap="styleOrder">
+    <view class="BingOne">
+      严重程度
+    </view>
+    <view class="BingTwo">
+      {{serious}}
+      <image src="../../utils/image/jianTwo.png" mode="aspectFill" lazy-load="true" class="jianTwo">
+      </image>
+    </view>
+  </button>
+  <button class="loginBtn" bindtap="finish">
+    完成
+  </button>
+</view>

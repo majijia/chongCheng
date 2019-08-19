@@ -1,0 +1,173 @@
+page{
+    background: #f4f4f4;
+}
+.bannerImg{
+    width:100%;
+    height: 320rpx;
+}
+.indexTwo{
+    width:93%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top:24rpx;
+}
+.indexImgO{
+    width: 100%;
+    height: 164rpx;
+    position: relative;  
+}
+.one{
+    margin-right:24rpx;
+}
+.zixun,.kecheng{
+    position: absolute;
+    top:24%;
+    left:6%;
+    font-size: 32rpx;
+    color:#141418;
+}
+.jieda{
+    color:#A46829;
+    font-size: 28rpx;
+}
+.ship{
+    font-size: 28rpx;
+    color:#42769A;
+}
+.jieda,.ship{
+    position: absolute;
+    top:54%;
+    left:6%;
+}
+.indexTit{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin:24rpx;
+}
+.titImg,.titTui,.cic,.titLast{
+    margin-right:10rpx;
+}
+.titImg{
+    width:21rpx;
+    height: 28rpx;
+}
+.titTui{
+    color:#0E0E12;
+    font-size: 32rpx;
+}
+.cic{
+    width:10rpx;
+    height:10rpx;
+    background: #ff8833;
+    border-radius: 50rpx;
+}
+.titLast{
+    font-size: 24rpx;
+    color:#ff8833;
+}
+.pingGu{
+    width:93%;
+    height: 188rpx;
+    align-items: center;
+    background: #fff;
+    border-radius: 10rpx;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.doc{
+    width:200rpx;
+    height: 150rpx;
+    margin-left:24rpx;
+}
+.jianTwo{
+    width:20rpx;
+    height:36rpx;
+    margin:24rpx;
+}
+.texOne{
+    font-size: 32rpx;
+    color:#141418;
+    margin-bottom: 20rpx;
+}
+.texTwo,.texThree{
+    font-size: 24rpx;
+    color:#5F5F6A;
+}
+/*播放*/
+.shiP{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-bottom: 20rpx;
+}
+.auto{
+    width:45%;
+    background: #fff;
+    border-radius: 10rpx;
+    margin-top:24rpx;
+    margin-left:24rpx;
+}
+.autoImgOne{
+    width:100%;
+    height: 200rpx;
+    position: relative;
+}
+.autoBtn{
+    position: absolute;
+    top:30%;
+    left:40%;
+    width: 82rpx;
+    height: 82rpx;
+}
+.autoTit{
+    color:#262626;
+    font-size: 28rpx;
+    margin-left:10rpx;
+}
+.autoBuy{
+    color:#97969C;
+    font-size: 24rpx;
+    margin-left:10rpx;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-left:10rpx;
+    
+}
+.price view{
+    color:#FF4A4A;
+    font-size: 36rpx;
+}
+.price button{
+    width:186rpx;
+    height:46rpx;
+    background:rgba(252,149,65,0.1);
+    border-radius:23rpx 0rpx 0rpx 23rpx;
+    color:#ff8833;
+    font-size: 22rpx;
+    text-align: start;
+    line-height: 46rpx;
+    margin-bottom: 16rpx;
+    
+}
+/*修改资料*/
+.material{
+    text-align: center;
+    background: #f4f4f4;
+    width:100%;
+}
+.loginBtn{
+    margin-top:10rpx;
+}
+.material .two{
+    margin-top:44rpx;
+}
+.material view{
+    color:#96969C;
+    font-size: 24rpx;
+    margin:38rpx 0; 
+}

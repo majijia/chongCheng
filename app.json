@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    
+    "pages/vplayAuto/vplayAuto",
+    "pages/material/material",
+    "pages/styleSite/styleSite",
+    "pages/actXiang/actXiang",
+    "pages/money/money",
+    "pages/writePing/writePing",
+    "pages/vidplay/vidplay",
+    
+    "pages/vstarTra/vstarTra",
+    "pages/vidList/vidList",
+    "pages/logs/logs",
+    "pages/styleBing/styleBing",
+    "pages/styleOrder/styleOrder",
+    "pages/trainXun/trainXun",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "开启憧橙之路",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color":"#333",
+    "selectedColor":"#ff8833",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"utils/image/index/xun.png",
+      "selectedIconPath":"utils/image/index/shou.png"
+    }, {
+      "pagePath": "pages/trainXun/trainXun",
+      "text": "训练",
+      "iconPath":"utils/image/index/xun.png",
+      "selectedIconPath":"utils/image/index/shou.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath":"utils/image/index/mine.png",
+      "selectedIconPath":"utils/image/index/shou.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

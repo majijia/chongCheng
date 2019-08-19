@@ -1,0 +1,45 @@
+.com{
+    margin:0 24rpx;
+}
+.comOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comInp{
+    background: #eee;
+    border-radius: 50rpx;
+    width:70%;
+    padding:18rpx 0 20rpx 18rpx;
+}
+.comImg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top:30rpx;
+}
+.comImg:last-child{
+    margin-bottom: 150rpx;
+}
+.headImg{
+    width:80rpx;
+    height: 80rpx;
+    border-radius: 100rpx;
+    border:1rpx solid #eee;
+    margin-right:20rpx;
+}
+.comName{
+    color:#010101;
+    font-size: 28rpx;
+}
+.comP{
+    color:#666;
+    font-size: 24rpx;
+    margin-top:20rpx;
+}
+.comDate{
+    color:#999;
+    font-size: 24rpx;
+    margin-top:20rpx;
+    margin-left:20%;
+}

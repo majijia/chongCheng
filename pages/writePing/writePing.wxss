@@ -1,0 +1,18 @@
+page{
+    background: #f4f4f4;
+}
+.wirteText{
+    width:92%;
+    background: #fff;
+    border-radius: 10rpx;
+    margin: 0 auto;
+    margin-top:24rpx;
+    padding-left:20rpx;
+    padding-top:20rpx;
+}
+.loginBtn{
+    text-align: center;
+    margin: 0 auto;
+    line-height: 88rpx;
+    margin-top:400rpx;
+}

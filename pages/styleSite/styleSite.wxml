@@ -1,0 +1,14 @@
+<view class="siteOne">
+  <view class="siteTwo">
+    <radio-group class="viewOne"  >
+      <label class="radio" bindtap="listChange" wx:for="{{list}}" wx:key="{{item.id}}" data-gid="{{item.id}}" data-name="{{item.title}}">
+        <view class="siteSun">
+          <view class="tex">{{item.title}}</view>
+          <radio value="{{item.title}}" checked="{{item.checked}}" class="vidio"/>
+        </view>
+        </label>
+    </radio-group>
+  </view>
+</view>
+
+

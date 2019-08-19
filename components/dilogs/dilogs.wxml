@@ -1,0 +1,32 @@
+<view class="actO">
+    <view class="numact">14个动作</view>
+    <view class="act" bindtap="actXiang">
+        <image src="../../utils/image/index/yundong.jpg" mode="aspectFill" lazy-load="true" class="actImg"></image>
+        <view>
+            <view class="actTwo">动作名称动作名称</view>
+            <view class="actTime">时长：2分33秒</view>
+        </view>
+    </view>
+    <view class="act">
+        <image src="../../utils/image/index/yundong.jpg" mode="aspectFill" lazy-load="true" class="actImg"></image>
+        <view>
+            <view class="actTwo">动作名称动作名称</view>
+            <view class="actTime">时长：2分33秒</view>
+        </view>
+    </view>
+    <view class="act">
+        <image src="../../utils/image/index/yundong.jpg" mode="aspectFill" lazy-load="true" class="actImg"></image>
+        <view>
+            <view class="actTwo">动作名称动作名称</view>
+            <view class="actTime">时长：2分33秒</view>
+        </view>
+    </view>
+    <view class="act">
+        <image src="../../utils/image/index/yundong.jpg" mode="aspectFill" lazy-load="true" class="actImg"></image>
+        <view>
+            <view class="actTwo">动作名称动作名称</view>
+            <view class="actTime">时长：2分33秒</view>
+        </view>
+    </view>
+    
+</view>

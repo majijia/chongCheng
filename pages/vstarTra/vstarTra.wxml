@@ -1,0 +1,14 @@
+<view class="">
+    <view class="pushXun">
+      <view class="line">——— </view>
+      <view class="xunOne">即将进入训练</view>
+      <view class="line"> ———</view>
+    </view>
+    <view class="pushJia">
+      <image src="../../utils/image/pushX.png"></image>
+      <view>准备开始</view>
+      <view>视力恢复远眺练习</view>
+      <view class="loading">加载中...</view>
+      <progress class="progress" percent="{{percent}}" show-info="{{true}}" active='{{isDown}}' stroke-width="30" color="#ff8833" border-radius="50" background="#fff"/>
+    </view>
+</view>

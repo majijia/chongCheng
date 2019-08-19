@@ -1,0 +1,101 @@
+page{
+    background: #f4f4f4;
+}
+.plays,.playsTwo{
+    background: #fff;
+    padding-bottom: 40rpx;
+    padding:24rpx;
+}
+
+.vidPlayO{
+    width: 100%;
+    height: 400rpx;
+}
+.Tthree{
+    width:16rpx;
+    height:16rpx;
+    border:3rpx solid rgba(252,149,65,1);
+    border-radius:50%;
+    margin-right:10rpx;
+    color:#0E0E12;
+    font-size: 28rpx;
+}
+.ThreeO{
+    color:#ff8833;
+}
+.vidPlayT{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Tone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20rpx 0;
+}
+.vidPlayF,.vidPlayE,.Ethree{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Fone{
+    color:#0E0E12;
+    font-size: 36rpx;
+    margin-top:20rpx;
+}
+.Ftwo{
+    color:#97969C;
+    font-size: 24rpx;
+}
+.vidPlayS{
+    color:#FF4A4A;
+    font-size: 36rpx;
+    margin:38rpx 0;
+}
+.Eone{
+    width:30rpx;
+    height: 30rpx;
+    margin-right: 10rpx;
+}
+.Etwo{
+    width:15rpx;
+    height: 27rpx;
+    margin-left:12rpx;
+}
+.vidPlayN{
+    color:#0E0E12;
+    font-size: 28rpx;
+    margin:24rpx 0;
+   
+}
+.None{
+    color:#5F5F69;
+    font-size: 28rpx;
+    border-bottom: 1rpx solid #eee;
+    padding-bottom: 24rpx;
+}
+.vidPlayTs{
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
+.Tones image:nth-child(1){
+    width:38rpx;
+    height: 38rpx;
+}
+.loginBtn{
+    margin:14rpx 0; 
+    line-height: 88rpx;
+}
+.Tones{
+    margin:20rpx 0;
+}
+.Tones view{
+    color:#999;
+    font-size: 22rpx;
+}

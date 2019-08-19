@@ -1,0 +1,9 @@
+
+{
+  "component": true,
+  "navigationBarTitleText": "课程详情",
+  "usingComponents": {
+    "dilogs": "../../components/dilogs/dilogs",
+    "comping": "../../components/comPing/comping"
+  }
+}

@@ -1,0 +1,25 @@
+<view>
+    <view class="moneyO money">
+        <image src="../../utils/image/index/yundong.jpg" class="moneyImg"></image>
+        <view>盲人行走课程</view>
+        <view class="moneyPri">￥99.0</view>
+    </view>
+    <view class="moneyO">
+        <image class="wechat" src="../../utils/image/wechat.png" mode="aspectFill" lazy-load="false">   </image>
+        <view>微信支付</view>
+        <radio-group class="radio-group">
+            <label class="radio">
+                <radio class="vidio" checked="{{true}}"/>
+            </label>
+        </radio-group>
+    </view>
+    <view class="loginBtn">支付</view>
+    <view class="moneyXie">
+        <radio-group class="vid">
+            <label class="radio">
+                <radio class="vidio" checked="{{true}}"/>
+            </label>
+        </radio-group>
+        <view class="moneyTwo">我已阅读并同意<text>《憧橙用户付费协议》</text></view>
+    </view>
+</view>

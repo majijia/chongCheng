@@ -1,0 +1,52 @@
+<view>
+    <view class="plays">
+        <image class="vidPlayO" src="../../utils/image/index/bane.jpg" mode="aspectFill"> 
+        </image>
+        <view class="xiangTit">视频恢复训练——远眺动作</view>
+        <view class="xiangTwo">步骤</view>
+        <view class="xiangThree">
+            <view class="cir"></view>
+            <view class="four">我是步骤我是步骤我是步骤我是步骤我是步骤</view>
+        </view>
+        <view class="xiangThree">
+            <view class="cir"></view>
+            <view class="four">我是步骤我是步骤我是步骤我是步骤我是步骤</view>
+        </view>
+        <view class="xiangThree">
+            <view class="cir"></view>
+            <view class="four">我是步骤我是步骤我是步骤我是步骤我是步骤</view>
+        </view>
+        <view class="xiangTwo">动作感觉</view>
+        <view class="xiangThree">
+            <view class="cir"> </view>
+            <view class="four">我是动作感觉我是动作感觉</view>
+        </view>
+        <view class="xiangTwo">常见错误</view>
+        <view class="xiangThree">
+            <view class="cir"></view>
+            <view class="four">我是常见错误</view>
+        </view>
+        <view class="xiangThree">
+            <view class="cir"></view>
+            <view class="four">我是常见错误</view>
+        </view>
+        <view class="xiangTwo">
+          <view>细节展示</view>
+          <scroll-view scroll-x="true">
+            <view class="uploadWrap" scroll-x="true">
+                <view class="upload_Item">
+                    <image src="../../utils/image/index/banner1.jpg" class="upload_Item_img"></image>
+                </view>
+                <view class="upload_Item">
+                    <image src="../../utils/image/index/banner3.png" class="upload_Item_img"></image>
+                </view>
+            </view>
+          </scroll-view>
+          <!-- <view class="xiangXi">
+              <image src="../../utils/image/index/banner1.jpg"></image>
+              <image src="../../utils/image/index/banner3.png"></image>
+          </view> -->
+        </view>
+
+    </view>
+</view>

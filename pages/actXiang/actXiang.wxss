@@ -1,0 +1,54 @@
+.plays{
+  padding:24rpx;
+}
+.vidPlayO{
+    width: 100%;
+    height: 400rpx;
+}
+.xiangTit{
+    margin:28rpx 0;
+}
+.xiangTwo{
+    font-size: 30rpx;
+    color:#202020;
+    margin:20rpx 0;
+}
+.cir{
+    width:8rpx;
+    height: 8rpx;
+    background: #333;
+    border-radius: 150rpx;
+}
+.xiangThree{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.four{
+    font-size: 28rpx;
+    color:#333;
+    margin-left:20rpx;
+}
+.xiangFive{
+    margin:24rpx 0;
+}
+.xiangXi{
+    display: flex;
+    justify-content: flex-start;
+}
+.xiangXi image{
+    width:400rpx;
+    height:320rpx;
+    margin-right:20rpx;
+    margin-top:20rpx;
+    overflow: scroll;
+    border-radius: 10rpx;
+}
+.uploadWrap{
+    height:160rpx;
+    width:100%; 
+    display: flex; 
+    flex-direction: column;
+}
+.upload_Item{ width: 160rpx; height: 160rpx;  flex: 1;}
+.upload_Item_img{ width: 160rpx; height: 160rpx;}

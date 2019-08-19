@@ -1,0 +1,18 @@
+<view class="siteOne">
+  <view class="siteTwo">
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio">
+        <view class="siteSun">
+          <view>完全损伤</view>
+          <radio value="1"  class="vidio" checked="{{checked}}"/>
+        </view>
+        </label>
+        <label class="radio">
+          <view class="siteSun">
+           <view>非完全损伤</view>
+           <radio value="2"  class="vidio" checked="{{check}}"/>
+        </view>
+    </label>
+    </radio-group>
+  </view>
+</view>

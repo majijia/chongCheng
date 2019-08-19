@@ -1,0 +1,32 @@
+page{
+  background: #f4f4f4;
+}
+.siteSun{
+  display: flex;
+  justify-content: space-between;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #fff;
+  width:100%;
+}
+.tex{
+  margin-left:20rpx;
+}
+.siteOne .siteTwo{
+  border-radius: 10rpx;
+  background: #fff;
+  margin:24rpx;
+  padding-bottom: 30rpx;
+}
+.radio{
+  border-bottom: 1px solid #f4f4f4;
+}
+.siteOne .siteTwo .viewOne{
+  height: 100rpx;
+  line-height: 34rpx;
+  text-align: start;
+  
+  font-size: 28rpx;
+  color:#0F0E13;
+  
+}

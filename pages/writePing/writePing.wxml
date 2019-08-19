@@ -1,0 +1,6 @@
+<view>
+    <textarea class="wirteText" value="" placeholder="请写下您的评论" maxlength='300'>
+        
+    </textarea>
+    <view class="loginBtn">发布</view>
+</view>

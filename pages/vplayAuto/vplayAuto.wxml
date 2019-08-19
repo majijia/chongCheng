@@ -1,0 +1,18 @@
+
+<view >
+    <view class='ceshi_swiper'>
+        
+                <video id='myvideo' src="{{videoOne[vidNum].video_url}}" class="slide-image" objectFit='fill' title='{{videoOne[vidNum].title}}  {{videoOne[vidNum].order}}/2' bindended="ended"  data-id="{{videoOne[vidNum].action_id}}" bindtap="audioPlayed">
+                    <cover-image hidden="{{leftJian}}" bindtap='prevImg' class='ceshi_next' src="../../utils/image/pre.png"></cover-image>
+                    <cover-image hidden="{{rightJian}}" class='ceshi_prew' bindtap='nextImg' src="../../utils/image/pre.png"></cover-image>
+                    <cover-image class="see" bindtap="see" src="../../utils/image/see.png"></cover-image>
+                </video>
+
+    </view>
+    <!-- <view wx:if="{{fullScreen}}" wx:for="{{videoUrList}}" wx:key="item.id" class="video">
+         <button bindtap='play' >播放</button> 
+        <video id='myvideo' class='{{fullScreen?"show":"hide"}}'   src="{{item.video_url}}"  autoplay="true" bindfullscreenchange="fullScreen"  bindended="closeVideo"  controls></video>
+    </view> -->
+</view>
+
+
