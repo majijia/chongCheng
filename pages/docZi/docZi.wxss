@@ -1,0 +1,89 @@
+page{
+    background: #f4f4f4;
+}
+.docs{
+    background: #fff;
+    border-radius: 10rpx;
+    margin:24rpx;
+}
+.doc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    
+    border-bottom: 1rpx solid #f4f4f4;
+}
+.imgDoc,.docTwo{
+    margin:20rpx;
+}
+.imgDoc{
+    width:102rpx;
+    height: 102rpx;
+    border-radius: 10rpx;
+}
+.titBig{
+    font-size: 32rpx;
+    color:#0F0E13;
+    font-weight:bold;
+}
+.docTwo{
+    margin: 20rpx 0rpx;
+}
+.imgStar{
+    width:20rpx;
+    height:20rpx;
+}
+.titTwo{
+    font-size: 24rpx;
+    color:#5F5F6B;
+}
+.free,.docts{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:20rpx 0;
+}
+.titTwos{
+    margin-left:20rpx;
+}
+.shan{
+    color:#97969C;
+    font-size: 24rpx;
+}
+.num{
+    color:#ff8833;
+    margin-right:20rpx;
+}
+.docThree{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24rpx;
+    margin:30rpx 0 0 0;
+}
+.btnFree{
+    margin-top:20rpx;
+    font-size: 22rpx;
+    color:#fff;
+    background: #FF494B;
+    border-bottom-left-radius: 10rpx;
+    width:75rpx;
+    height:34rpx;
+    line-height: 34rpx;
+    border-top-left-radius: 10rpx;
+    text-align: center;
+    margin-left:22%;
+}
+.docPric{
+    margin:70rpx 0 0 0;
+    font-size: 24rpx;
+    color:#0F0E13;
+}
+.dpri{
+    color:#FF494B;
+    margin-right:67rpx;
+}
+.dpris{
+    color:#36C67E;
+}

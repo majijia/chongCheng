@@ -1,7 +1,13 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/login/login",
+    "pages/docZi/docZi",
+    "pages/docDetail/docDetail",
+    "pages/index/index",
+    
+    "pages/docZiup/docZiup",
+    
+   
     
     "pages/vplayAuto/vplayAuto",
     "pages/material/material",
@@ -10,7 +16,6 @@
     "pages/money/money",
     "pages/writePing/writePing",
     "pages/vidplay/vidplay",
-    
     "pages/vstarTra/vstarTra",
     "pages/vidList/vidList",
     "pages/logs/logs",

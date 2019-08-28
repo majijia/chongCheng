@@ -1,0 +1,42 @@
+<view class="conAll">
+   <view class="materialTitTwo">
+    <view class="metName">
+      <view class="cic"></view>
+      <view class="metSty">患者的姓名是</view>
+    </view>
+    <input placeholder="请输入您的姓名" auto-focus bindblur="bindName" bindinput="bindKeyInput" value="{{userName}}"/>
+    <view>
+      <view class="metName">
+        <view class="cic"></view>
+        <view class="metSty">患者的性别是</view>
+      </view>
+      <view class="metSex">
+        <button class="operBtn {{select==1 ? 'activeClass':' '}}" bindtap="selectBtn" data-num="1" data-sex='男'>
+          <image class="" wx:if="{{select==1}}" src="../../utils/image/boy.png" mode="aspectFill" lazy-load="true">
+          </image>
+          <image class="" wx:else="{{select==2}}" src="../../utils/image/girl.png" mode="aspectFill" lazy-load="true">
+          </image>
+          男
+        </button>
+        <button class="operBtn {{select==2 ? 'activeClass':' '}}" bindtap="selectBtn" data-num="2" data-sex='女'>
+          <image class="" wx:if="{{select==2}}" src="../../utils/image/boy.png" mode="aspectFill" lazy-load="true">
+          </image>
+          <image class="" wx:else="{{select==1}}" src="../../utils/image/girl.png" mode="aspectFill" lazy-load="true">
+          </image>
+          女
+        </button>
+      </view>
+    </view>
+    <view class="metName">
+      <view class="cic"></view>
+      <view class="metSty">患者的出生日期是</view>
+    </view>
+    <view class="met_section">  
+      <picker class="met_date" mode="date" value="{{date}}" start="1952-01-01" end="2030-1-23" bindchange="bindDateChange">  
+        <view class="met_pickers" hidden="{{hidden}}">2017-11-08</view>
+        <view class="met_picker">{{dates}}</view>  
+      </picker>  
+    </view>  
+  </view>
+  <view class="loginBtn" bindtap="docList">发布</view>
+</view>

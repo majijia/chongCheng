@@ -1,0 +1,51 @@
+page{
+    background: #f4f4f4;
+}
+
+.teta{
+    background: #fff;
+    width:92%;
+    border-radius: 10rpx;
+    margin:24rpx auto;
+    padding:10rpx;
+    height: 400rpx;
+}
+.bacPho{
+    width:158rpx;
+    height: 158rpx;
+    background: #ECECEC;
+    border-radius: 10rpx;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imgPho{
+    width: 48rpx;
+    height: 40rpx;
+    margin: 0 auto;
+}
+.textPho{
+    color: #97969C;
+    font-size: 24rpx;
+    margin-top:10rpx;
+}
+.titUp{
+    color: #97969C;
+    font-size: 24rpx;
+    width: 76%;
+    margin-left:20rpx;
+}
+.up{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 94%;
+    margin: 0 auto;
+}
+.loginBtn{
+    text-align: center;
+    /* margin: 0 auto; */
+    margin:318rpx auto;
+    line-height: 88rpx;
+}

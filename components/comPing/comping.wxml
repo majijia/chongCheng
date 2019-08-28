@@ -1,38 +1,23 @@
-<view class="com">
+<view class="com" hidden="{{isPing}}">
     <view class="comOne">
-        <view>567条评论</view>
-        <input placeholder="我先来说两句" class="comInp" bindtap="wirtePing" />     
+        <view>{{num}}条评论</view>
+        <input placeholder="我先来说两句" class="comInp" bindtap="wirtePing" placeholder-style="font-size:24rpx;color:#97969C;" />     
     </view>
-    <view class="comImg">
+    <view class="comImg" wx:for="{{list}}" wx:key="item.id">
+      <view class="comT">
         <image src="../../utils/image/index/tu.jpg" class="headImg"></image>
         <view>
-            <view class="comName">思思大王</view>
-            <view class="comP">这个课程不错，对我十分有帮助</view>
+            <view class="comName">{{item.real_name}}</view>
+            <view class="comP">{{item.content}}</view>
         </view>
-        <view class="comDate">2013-8-19</view>
+      </view>
+        <view class="comDate">{{item.create_time}}</view>
     </view>
-    <view class="comImg">
-        <image src="../../utils/image/index/tu.jpg" class="headImg"></image>
-        <view>
-            <view class="comName">思思大王</view>
-            <view class="comP">这个课程不错，对我十分有帮助</view>
+    <!-- <view class="vidPlayTs">
+        <view class="Tones">
+            <image src="../../utils/image/index/master.png"></image>
+            <view>咨询</view>
         </view>
-        <view class="comDate">2013-8-19</view>
-    </view>
-    <view class="comImg">
-        <image src="../../utils/image/index/tu.jpg" class="headImg"></image>
-        <view>
-            <view class="comName">思思大王</view>
-            <view class="comP">这个课程不错，对我十分有帮助</view>
-        </view>
-        <view class="comDate">2013-8-19</view>
-    </view>
-    <view class="comImg">
-        <image src="../../utils/image/index/tu.jpg" class="headImg"></image>
-        <view>
-            <view class="comName">思思大王</view>
-            <view class="comP">这个课程不错，对我十分有帮助</view>
-        </view>
-        <view class="comDate">2013-8-19</view>
-    </view>
+        <view class="loginBtn" bindtap="starTra">立即购买</view>
+    </view> -->
 </view>

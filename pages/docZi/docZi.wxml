@@ -1,0 +1,29 @@
+<view>
+   <view class="docs">
+      <view class="doc" wx:for="{{list}}" wx:key="item.id" data-id="{{item.id}}" data-name="{{item.name}}" bindtap='switchToChating'>
+        <image src="../../utils/image/index/tu.jpg" class="imgDoc" mode="aspectFill"/>
+        <view class="docTwo">
+            <view class="titBig">{{item.name}}</view>
+            <view class="free" hidden="{{item.type=='1'}}">
+                <view class="titTwo">免费图文咨询</view>
+                <view class="titTwo titTwos">保护隐私</view>
+            </view>
+            <view class="docts" hidden="{{item.type=='2'}}">
+                <view class="titTwo">{{item.department}}</view>
+                <view class="titTwo titTwos">{{item.hospital}}</view>
+            </view>
+            <view class="shan" hidden="{{item.type=='2'}}">{{item.desc}}</view>
+            <view class="docThree" hidden="{{item.type=='2'}}">
+                <image src="../../utils/image/star.png" class="imgStar" mode="aspectFill"/>
+                <text class="num"> {{item.level}}</text>
+                <view>{{item.num}} 次咨询</view>
+            </view>
+            <view class="docPric">
+                图文<text class="dpri">￥{{item.text_price}}</text>
+                电话<text class="dpris">￥{{item.tel_price}}</text>
+            </view>
+        </view>
+      <view class="btnFree" hidden="{{item.type=='1'}}">免费</view>
+    </view> 
+   </view>
+</view>

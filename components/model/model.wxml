@@ -1,0 +1,7 @@
+<view class="mod">
+    <view class="modBac">
+        <view class="plBuy">请先购买课程</view>
+        <image src="../../utils/image/buy.png" class="modImg"></image>
+        <view class="buy" bindtap="buyMony">购买</view>
+    </view> 
+</view>

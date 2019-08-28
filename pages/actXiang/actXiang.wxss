@@ -13,6 +13,9 @@
     color:#202020;
     margin:20rpx 0;
 }
+.xiangTwos{
+    margin-bottom: 120rpx;
+}
 .cir{
     width:8rpx;
     height: 8rpx;
@@ -24,9 +27,12 @@
     justify-content: flex-start;
     align-items: center;
 }
+.four,.fours{
+    font-size: 24rpx;
+    color:#60606A;
+    
+}
 .four{
-    font-size: 28rpx;
-    color:#333;
     margin-left:20rpx;
 }
 .xiangFive{
@@ -45,10 +51,30 @@
     border-radius: 10rpx;
 }
 .uploadWrap{
-    height:160rpx;
+    /* height:200px; */
     width:100%; 
     display: flex; 
-    flex-direction: column;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
 }
-.upload_Item{ width: 160rpx; height: 160rpx;  flex: 1;}
-.upload_Item_img{ width: 160rpx; height: 160rpx;}
+.upload_Item{
+    width: 236px;
+    /* height: 194px;  */
+    flex: 1;
+    margin-right:24rpx;
+}
+.upload_Item_img{
+    width: 236px;
+    height: 194px;
+    border-radius: 10rpx;
+}
+.xiangXi{
+    margin-bottom: 40rpx;
+}
+.xiangThree{
+    margin-top:10rpx;
+}
+.loginBtn{
+    margin:14rpx 0; 
+    line-height: 88rpx;
+}

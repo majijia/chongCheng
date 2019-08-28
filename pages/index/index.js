@@ -62,6 +62,12 @@ amend:function(){
         url:"../material/material",
     })
 },
+/**康复咨询 */
+docZiup:function(){
+  wx.navigateTo({
+    url:"../docZiup/docZiup"
+  })
+},
  onLoad: function () {
     var that=this;
     wx.getStorage({

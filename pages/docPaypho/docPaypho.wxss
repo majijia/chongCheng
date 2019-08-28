@@ -1,0 +1,74 @@
+page{
+  background: #f4f4f4;
+}
+.payShuo,.payMeth{
+  background: #fff;
+  width: 88%;
+  padding:0 24rpx;
+  margin: 0 auto;
+  border-radius: 10rpx;
+  margin-top:24rpx;
+  justify-content: space-between;
+}
+.payShuo{
+  height: 140rpx;
+  line-height: 140rpx;
+}
+.payShuo,.pays,.siteSun,.payM,.siteSuntwo{
+  display: flex;
+  align-items: center;
+}
+.siteSuntwo{
+  justify-content: center;
+  margin-top:24rpx;
+  width: 100%;
+}
+.siteSuntwo view{
+  color: #5F5F6A;
+  font-size: 24rpx;
+}
+.siteSun{
+  justify-content: space-between;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.siteSuns{
+  border-bottom: 1rpx solid #eee;
+}
+.payXie{
+  color: #ff8833;
+}
+.payImg{
+  width: 90rpx;
+  height: 90rpx;
+}
+.payTit{
+  color: #141418;
+  font-size: 32rpx;
+  margin-left:24rpx;
+}
+.payPrice{
+  color: #FF4A4A;
+  font-size: 32rpx;
+}
+.payMthImg{
+  width:36rpx;
+  height: 32rpx;
+}
+.payMthImgs{
+  width: 36rpx;
+  height: 36rpx;
+}
+.tex{
+  color: #0F0E13;
+  font-size: 28rpx;
+  margin-left:20rpx;
+}
+.payFree{
+  color: #97969C;
+  font-size: 24rpx;
+  margin-right: 30rpx;
+}
+.loginBtn{
+  margin-top: 70%;
+}

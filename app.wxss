@@ -19,9 +19,12 @@
   height:88rpx;
   background:#ff8833;
   border-radius:44rpx;
-  margin-top:50%;
+  /* margin-top:50%; */
   color:rgba(255,255,255,1);
   font-size:34rpx;
+  line-height: 88rpx;
+  text-align: center;
+  margin:50% auto 0;
 }
 /*箭头*/
 .jianTwo{
@@ -39,4 +42,25 @@
   left:85%;
   width:88rpx;
   height:88rpx;
+}
+/*固定按钮*/
+.vidPlayTs{
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
+.Tones{
+    margin:20rpx 0;
+}
+.Tones view{
+    color:#999;
+    font-size: 22rpx;
+}
+.Tones image:nth-child(1){
+    width:38rpx;
+    height: 38rpx;
 }

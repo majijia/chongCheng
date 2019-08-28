@@ -1,8 +1,8 @@
 <view>
     <view class="moneyO money">
-        <image src="../../utils/image/index/yundong.jpg" class="moneyImg"></image>
-        <view>盲人行走课程</view>
-        <view class="moneyPri">￥99.0</view>
+        <image src="{{list.pic_url}}" class="moneyImg"></image>
+        <view>{{list.title}}</view>
+        <view class="moneyPri">￥{{list.price}}</view>
     </view>
     <view class="moneyO">
         <image class="wechat" src="../../utils/image/wechat.png" mode="aspectFill" lazy-load="false">   </image>

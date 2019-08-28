@@ -6,6 +6,7 @@ Page({
    */
   data: {
     pid:'',
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
     openI:'',
     /**变量判断手机号 */
     isPhone:true,
@@ -57,6 +58,37 @@ getPhoneNumber(i){
                                 key:'session_key',
                                 data:sessionKey
                             })
+                            // wx.getSetting({
+                            //     success (res){
+                            //         // console.log(res)
+                            //       if (res.authSetting['scope.userInfo']) {
+                            //         // 已经授权，可以直接调用 getUserInfo 获取头像昵称
+                            //         wx.getUserInfo({
+                            //           withCredentials:true,
+                            //           success: function(rest) {
+                            //             console.log(rest)
+                            //             // console.log(res.userInfo)
+                            //             wx.request({
+                            //                 url:app.globalData.host+"user/get_phone1",
+                            //                 method:'post',
+                            //                 data:{encrydata:rest.encryptedData,iv:rest.iv,openid:openId},
+                            //                 success:result=>{
+                            //                     console.log(result)
+                            //                    if(result.data.code_status==0){
+                            //                         // wx.redirectTo ({
+                            //                         //     url:"../material/material",
+                            //                         // })
+                            //                         that.setData({
+                            //                             isPhone:false
+                            //                         })
+                            //                    } 
+                            //                 }
+                            //             })
+                            //           }
+                            //         })
+                            //       }
+                            //     }
+                            //   })
                               wx.request({
                                 url:app.globalData.host+"user/get_phone",
                                 method:'post',
@@ -73,6 +105,7 @@ getPhoneNumber(i){
                                 }
                             })
                             //   this.getPhone();
+
                           }
                       }
                   });

@@ -1,0 +1,45 @@
+<view>
+  <view class="payShuo">
+    <view class="pays">
+      <image src="../../utils/image/cardOne.png" class="payImg"></image>
+      <view class="payTit">张三医生图文咨询</view>
+    </view>
+    <view class="payPrice">￥45.0</view>
+  </view>
+  <view class="payMeth">
+    <radio-group class="viewOne"  >
+      <label class="radio" bindtap="listChange">
+        <view class="siteSun siteSuns">
+          <view class="payM">
+            <image src="../../utils/image/wechat.png" class="payMthImg"></image>
+            <view class="tex">微信支付</view>
+          </view>
+          <radio value="微信" checked="{{true}}" class="vidio"/>
+        </view>
+      </label>
+      <label class="radio" bindtap="listChange">
+        <view class="siteSun">
+          <view class="payM">
+            <image src="../../utils/image/payHui.png" class="payMthImgs"></image>
+            <view class="tex">会员支付</view>
+          </view>
+          <view class="payM">
+              <view class="payFree">可免费咨询5次</view>
+              <radio value="会员" checked="{{true}}" class="vidio"/>
+          </view>
+        </view>
+      </label>
+    </radio-group>
+  </view>
+  <view class="loginBtn">支付</view>
+  <view>
+    <radio-group class="viewOne"  >
+      <label class="radio" bindtap="listChange">
+        <view class="siteSuntwo">
+          <radio value="协议" checked="{{true}}" class="vidio"/>
+          <view>我已阅读并同意<text class="payXie">《憧橙用户付费协议》</text></view>
+        </view>
+      </label>
+    </radio-group>
+  </view>
+</view>

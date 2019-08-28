@@ -1,0 +1,22 @@
+<view class="conAll">
+  <view class="conTit">选择患者信息便于医生给出精准的治疗</view>
+  <view>
+  <radio-group class="viewOne"  >
+      <label class="radio" bindtap="listChange" wx:for="{{list}}" wx:key="item.id">
+        <view class="siteSun">
+          <view class="tex">
+            <view>{{item.real_name}}</view>
+            <view class="addSex">{{item.gender=='1'? '男': '女'}}</view>
+            <view>{{item.age}}岁</view>
+          </view>
+          <radio value="添加患者" checked="{{true}}" class="vidio"/>
+        </view>
+        </label> 
+    </radio-group>
+    <view class="addPeo" bindtap="addPeo">
+      <image src="../../utils/image/add.png" class="addImg"></image>
+      <view class="addTit">添加患者</view>
+    </view>
+  </view>
+  <view class="loginBtn">发布</view>
+</view>

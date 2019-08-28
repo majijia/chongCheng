@@ -1,0 +1,11 @@
+<view>
+  <textarea class="teta" placeholder="请用10-600字详细描述您的病情，详细的描述可以让治疗师快速准确的做出解答。" maxlength='300' placeholder-style="color:#97969C;font-size:28rpx"></textarea >
+  <view class="up">
+    <view class="bacPho">
+      <image src="../../utils/image/pho.png" class="imgPho"></image>
+      <view class="textPho">图片</view>
+    </view>
+    <view class="titUp">上传检查单等相关图片，便于治疗师作出精准解答（图片只有您和当前治疗师可见，憧橙会确保您的隐私安全）</view>
+  </view>
+  <view class="loginBtn" bindtap="docAdd">下一步</view>
+</view>

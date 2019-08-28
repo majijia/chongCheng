@@ -75,27 +75,8 @@ page{
     border-bottom: 1rpx solid #eee;
     padding-bottom: 24rpx;
 }
-.vidPlayTs{
-    background: #fff;
-    position: fixed;
-    bottom: 0;
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    text-align: center;
-}
-.Tones image:nth-child(1){
-    width:38rpx;
-    height: 38rpx;
-}
+
 .loginBtn{
     margin:14rpx 0; 
     line-height: 88rpx;
-}
-.Tones{
-    margin:20rpx 0;
-}
-.Tones view{
-    color:#999;
-    font-size: 22rpx;
 }

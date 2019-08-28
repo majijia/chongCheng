@@ -1,0 +1,32 @@
+.mod{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.4);
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.modBac{
+    width:80%;
+    height: 452rpx;
+    background: #fff;
+    border-radius: 10rpx;
+    margin: 50% auto;
+    text-align: center;
+}
+.modImg{
+    width: 112px;
+    height: 97px;
+}
+.plBuy{
+    color: #0F0E13;
+    font-size: 34rpx;
+    padding:40rpx;
+}
+.buy{
+    font-size: 34rpx;
+    color: #FC9541;
+    padding:28rpx;
+    border-top:1rpx solid #eee;
+    margin-top:30rpx;
+}

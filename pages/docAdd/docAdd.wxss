@@ -1,0 +1,50 @@
+page{
+    background: #f4f4f4;
+}
+.conAll{
+    width: 94%;
+    margin: 24rpx auto;
+}
+.conTit{
+    color: #97969C;
+    font-size: 28rpx;
+    margin-bottom: 24rpx;
+}
+.radio,.tex{
+    display: flex;
+}
+.tex{
+    margin-left:20rpx;
+    color:#0F0E13;
+    font-size: 28rpx;
+}
+.addSex{
+    margin:0 40rpx;
+}
+.radio{
+    background: #fff;
+    height: 110rpx;
+    line-height: 110rpx;
+    border-bottom: 1rpx solid #eee;
+}
+.siteSun{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.addPeo{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:40rpx 0;
+}
+.addImg{
+    width: 22rpx;
+    height: 22rpx;
+}
+.addTit{
+    color:#FC9541;
+    font-size: 28rpx;
+    margin-left:10rpx;
+}

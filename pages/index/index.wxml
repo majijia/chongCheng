@@ -7,7 +7,7 @@
         </block>
     </swiper>
     <view class="indexTwo">
-       <image class="indexImgO one" src="../../utils/image/index/zixun.png" mode="scaleToFill" lazy-load="true">
+       <image class="indexImgO one" src="../../utils/image/index/zixun.png" mode="scaleToFill" lazy-load="true" bindtap="docZiup">
            <view class="zixun">康复咨询</view>
            <view class="jieda">专家在线解答</view>
        </image> 

@@ -30,15 +30,25 @@
             <view class="cir"></view>
             <view class="four">我是常见错误</view>
         </view>
-        <view class="xiangTwo">
-          <view>细节展示</view>
+        <view class="xiangTwo xiangTwos">
+          <view class="xiangXi">细节展示</view>
           <scroll-view scroll-x="true">
             <view class="uploadWrap" scroll-x="true">
                 <view class="upload_Item">
                     <image src="../../utils/image/index/banner1.jpg" class="upload_Item_img"></image>
+                    <view class="fours">1.容易闭眼睛</view>
                 </view>
                 <view class="upload_Item">
-                    <image src="../../utils/image/index/banner3.png" class="upload_Item_img"></image>
+                    <image src="../../utils/image/index/banner1.jpg" class="upload_Item_img"></image>
+                    <view class="fours">2.容易闭眼睛</view>
+                </view>
+                <view class="upload_Item">
+                    <image src="../../utils/image/index/banner1.jpg" class="upload_Item_img"></image>
+                    <view class="fours">3.容易闭眼睛</view>
+                </view>
+                <view class="upload_Item">
+                    <image src="../../utils/image/index/banner1.jpg" class="upload_Item_img"></image>
+                    <view class="fours">4.容易闭眼睛</view>
                 </view>
             </view>
           </scroll-view>
@@ -48,5 +58,12 @@
           </view> -->
         </view>
 
+    </view>
+    <view class="vidPlayTs">
+        <view class="Tones">
+            <image src="../../utils/image/index/master.png"></image>
+            <view>咨询</view>
+        </view>
+        <view class="loginBtn" bindtap="starTra">立即购买</view>
     </view>
 </view>

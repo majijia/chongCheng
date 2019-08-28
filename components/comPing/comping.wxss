@@ -1,20 +1,25 @@
 .com{
     margin:0 24rpx;
 }
-.comOne{
+.comOne,.comT{
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
 }
+.comOne{
+    justify-content: space-between;
+}
 .comInp{
-    background: #eee;
+    background:rgba(0,0,0,0.05);
     border-radius: 50rpx;
-    width:70%;
-    padding:18rpx 0 20rpx 18rpx;
+    width:60%;
+    padding:12rpx 0 12rpx 30rpx;
+    font-size: 24rpx;
+    color: #97969C;
 }
 .comImg{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
     margin-top:30rpx;
 }

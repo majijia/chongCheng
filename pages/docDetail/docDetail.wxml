@@ -1,0 +1,115 @@
+<view>
+   <view class="baCard">
+     <view class="card">
+       <view class="cardTit">
+         <image src="../../utils/image/index/yundong.jpg" class="cardImg"></image>
+         <view>
+           <view class="cardName">{{list.name}}</view>
+           <text class="cardKe">{{list.department}}</text>
+           <text class="cardKe">{{list.type=='1' ? '专家' : '理疗师'}}</text>
+         </view>
+         <view class="foll">关注</view>
+       </view>
+       <view class="doction">
+         <view class="sty">三甲</view>
+         <view class="docName">{{list.hospital}}</view>
+         <view class="docNum">{{list.num}} <text>次咨询</text></view>
+         <image src="../../utils/image/star.png" class="star"></image>
+         <view class="secor">5.0</view>
+       </view>
+     </view>
+     <view class="Titwo Titwos">医生简介</view>
+     <view class="docJian">{{list.desc}}</view>
+     <view>
+       <view class="Titwo Titwos">咨询方式</view>
+       <view class="wenB">
+         <view>
+          <view class="wenBac">
+            <view class="wenBacs">
+              <image src="../../utils/image/cardOne.png" class="cdImg"></image>
+              <view class="Titwo">图文问诊</view>
+            </view>
+            <view class="pri">￥{{list.text_price}}</view>
+          </view>
+          <view class="shuo">
+              <view class="cir"></view>
+              <view class="smallTit">可通过文字、语音、图片的形式跟医生沟通</view>
+          </view>
+          <view class="shuo">
+              <view class="cir"></view>
+              <view class="smallTit">一次咨询的时效为24小时，24小时内可随时和医生沟通（对话上线为50次）</view>
+          </view>
+          </view>
+         </view>
+     </view>
+     <view class="wenB">
+         <view>
+          <view class="wenBac">
+            <view class="wenBacs">
+              <image src="../../utils/image/cardTwo.png" class="cdImg"></image>
+              <view class="Titwo">电话问诊</view>
+              <view class="TitBiao">专家一对一</view>
+            </view>
+            <view class="pri">￥{{list.tel_price}}</view>
+          </view>
+          <view class="shuo">
+              <view class="cir"></view>
+              <view class="smallTit">可通过电话的形式跟医生沟通</view>
+          </view>
+          <view class="shuo">
+              <view class="cir"></view>
+              <view class="smallTit">通话时长为15分钟，通话时间段可自主选择预约</view>
+          </view>
+          </view>
+         </view>
+      <!--会员特惠-->
+      <view class="odd">
+        <view class="odds">
+          <view class="Titwos">会员特惠</view>
+          <view class="supper">超级省</view>
+        </view>
+        <image src="../../utils/image/huiBac.png" class="openHui">
+          <view class="huiYuan">
+            <view>
+              <image src="../../utils/image/o.png" class="huiImg"></image>
+              <view class="numZi">10次免费咨询</view>
+            </view>
+            <view>
+              <image src="../../utils/image/t.png" class="huiImg"></image>
+              <view class="numZi">10次免费评估</view>
+            </view>
+            <view>
+              <image src="../../utils/image/th.png" class="huiImg"></image>
+              <view class="numZi">海量课程免费看</view>
+            </view>
+          </view>
+          <view class="gOpen">去开通</view>
+        </image>
+        
+      </view>
+      <!--患者评价-->
+      <view>
+        <view class="Titwos">患者评价</view>
+        <view class="ping">
+          <view class="pingTwo">
+            <image src="../../utils/image/index/tu.jpg" class="imgHead"></image>
+            <view class="userName">
+              <view class="pingName">思思大王</view>
+              <image src="../../utils/image/star.png" class="star stars"></image>
+              <image src="../../utils/image/star.png" class="star stars"></image>
+              <image src="../../utils/image/star.png" class="star stars"></image>
+              <image src="../../utils/image/star.png" class="star stars"></image>
+              <image src="../../utils/image/star.png" class="star stars"></image>
+            </view>
+            <view class="pingDate">2019-8-19</view>
+          </view>
+          <view class="pingLun">这个课程不错，对我十分有帮助</view>
+          <view class="more">更多99个评价</view>
+        </view>
+      </view>
+      <view class="tabZi">
+        <view class="phnZi">电话咨询 ￥{{list.tel_price}}</view>
+        <view class="phbZiTwo" bindtap="phoZi">图文咨询 ￥{{list.text_price}}</view>
+      </view>
+   </view>  
+</view>
